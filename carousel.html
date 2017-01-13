@@ -1,0 +1,68 @@
+<head>
+    <style>
+        .container {
+            width: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .carousel {
+            overflow: hidden;
+            position: relative;
+            width: 67px;
+            height: 51px;
+            margin: 0 auto;
+        }
+
+        ul {
+            position: absolute;
+            left: 0;
+            width: 99999em;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            /*transition: all .3s;*/
+        }
+
+        li {
+            float: left;
+            font-size: 20px;
+            margin-right: 15px;
+        }
+
+        .controls {
+            position: absolute;
+            bottom: 0;
+            width: 100px;
+        }
+
+        .arrow {
+            float: left;
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+            background: #000;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/carousel.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="carousel">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <div class="controls">
+                <div class="arrow left"></div>
+                <div class="arrow right"></div>
+            </div>
+        </div>
+    </div>
+</body>
