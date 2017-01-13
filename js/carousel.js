@@ -85,7 +85,7 @@ function bts() {
             ++itemCount;
             $('ul li:nth-child('+numberItems+')').clone().prependTo('ul');
             $items.css('left', '-='+move);
-            console.log('left clicked');
+            console.log('right clicked');
         });
         limitItemsFunc();
 
